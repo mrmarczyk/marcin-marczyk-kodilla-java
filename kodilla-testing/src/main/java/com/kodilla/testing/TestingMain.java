@@ -12,7 +12,7 @@ public class TestingMain {
 
         String result = simpleUser.getUsername();
 
-        if (result.equals("theForumUser")){
+        if (result.equals("theForumUser")) {
             System.out.println("test OK");
         } else {
             System.out.println("Error!");
@@ -21,8 +21,13 @@ public class TestingMain {
         Calculator calculator = new Calculator();
         int addResult = calculator.add(3, 1);
         int subResult = calculator.subtract(2, 2);
-        if (addResult == 4) && (subResult == 0) {
-            System.out.println("Calculator test OK");
+        if (addResult == 4) {
+            System.out.println("Calculator test 1 OK");
+        } else {
+            System.out.println("Calculator has error!");
+        }
+        if (subResult == 0) {
+            System.out.println("Calculator test 2 OK");
         } else {
             System.out.println("Calculator has error!");
         }
