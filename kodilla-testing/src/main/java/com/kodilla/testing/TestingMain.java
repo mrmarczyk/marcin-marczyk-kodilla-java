@@ -22,14 +22,14 @@ public class TestingMain {
         int addResult = calculator.add(3, 1);
         int subResult = calculator.subtract(2, 2);
         if (addResult == 4) {
-            System.out.println("Calculator test 1 OK");
+            System.out.println("Calculator adding test is OK");
         } else {
-            System.out.println("Calculator has error!");
+            System.out.println("Calculator has error! Result of 'Add' operation is wrong");
         }
         if (subResult == 0) {
-            System.out.println("Calculator test 2 OK");
+            System.out.println("Calculator subtracting test is OK");
         } else {
-            System.out.println("Calculator has error!");
+            System.out.println("Calculator has error! Result of 'Sub' operation is wrong");
         }
     }
 }
